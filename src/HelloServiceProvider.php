@@ -1,7 +1,5 @@
 <?php
 
-namespace testehteshamali\HelloPackage;
-
 use Illuminate\Support\ServiceProvider;
 
 class HelloServiceProvider extends ServiceProvider

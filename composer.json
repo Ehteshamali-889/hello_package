@@ -2,9 +2,9 @@
     "name": "testehteshamali/hello-package",
     "description": "A simple Laravel package that publishes a hello.php view.",
     "autoload": {
-        "psr-4": {
-            "testehteshamali\\HelloPackage\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "require": {
         "php": "^7.4|^8.0",
@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "testehteshamali\\HelloPackage\\HelloServiceProvider"
+                "HelloServiceProvider"
             ]
         }
     }
