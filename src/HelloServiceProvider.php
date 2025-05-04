@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendorName\HelloPackage;
+namespace testehteshamali\HelloPackage;
 
 use Illuminate\Support\ServiceProvider;
 
