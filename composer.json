@@ -1,9 +1,9 @@
 {
-    "name": "your-vendor-name/hello-package",
+    "name": "hello-package",
     "description": "A simple Laravel package that publishes a hello.php view.",
     "autoload": {
         "psr-4": {
-            "testehteshamali\\HelloPackage\\": "src/"
+            "\\HelloPackage\\": "src/"
         }
     },
     "require": {
@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "testehteshamali\\HelloPackage\\HelloServiceProvider"
+                "\\HelloPackage\\HelloServiceProvider"
             ]
         }
     }
